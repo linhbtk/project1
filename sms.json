@@ -1,0 +1,172 @@
+{
+  "campaign_id": "360",
+  "name": "06092016_sms_09-06-2016_09-15-2016",
+  "script_type_code": "sms",
+  "script_content": [
+    {
+      "type": "sms",
+      "content": "Noi dung kich ban SMS",
+      "register_package": {
+        "name": "DK 1",
+        "forward_content": "1"
+      },
+      "answer": null,
+      "right": null
+    }
+  ],
+  "start_date": "2016-09-06 00:00:00",
+  "end_date": "2016-09-07 00:00:00",
+  "target_filter": {
+    "ages": {
+      "age": [
+        "0_18",
+        "19_24",
+        "25_34",
+        "35_50",
+        "50_0",
+        "0_100"
+      ]
+    },
+    "sexs": {
+      "sex": [
+        "1",
+        "0"
+      ]
+    },
+    "profile_location": {
+      "provinces": {
+        "province": [
+          "TBI",
+          "BTH"
+        ]
+      },
+      "districts": {
+        "district": [
+          "TBI03",
+          "TBI06",
+          "TBI09",
+          "TBI10",
+          "TBI05",
+          "TBI11",
+          "TBI07",
+          "TBI08",
+          "TBI02",
+          "TBI01",
+          "TBI04",
+          "BTH03",
+          "BTH05",
+          "BTH07",
+          "BTH04",
+          "BTH06",
+          "BTH02",
+          "BTH01"
+        ]
+      },
+      "precinct": null
+    },
+    "sub_types": {
+      "sub_type": [
+        "postpaid",
+        "prepaid"
+      ]
+    },
+    "sub_vas": {
+      "packages": {
+        "package_id": [
+          "pack100",
+          "pack50"
+        ]
+      },
+      "source_sys": null
+    },
+    "sub_by_cell": {
+      "area_by_cells": {
+        "area_by_cell": [
+          3,
+          4
+        ]
+      },
+      "districts": {
+        "district": [
+          "BK03",
+          "BK05",
+          "BK07",
+          "BK06",
+          "BK08",
+          "BK04",
+          "BK02",
+          "BK01",
+          "BN07",
+          "BN08",
+          "BN03",
+          "BN06",
+          "BN04",
+          "BN02",
+          "BN01",
+          "BN05"
+        ]
+      }
+    },
+    "sub_balance": {
+      "primary_balance": [
+        "0_10000",
+        "10000_100000",
+        "100001_500000",
+        "500001_1000000",
+        "1000000_0"
+      ],
+      "bonus_balance": null,
+      "pro_balance": [
+        "10000_50000",
+        "100000_500000",
+        "50001_100000",
+        "0_10000",
+        "500000_0"
+      ]
+    },
+    "device": {
+      "oss": {
+        "os": [
+          "android",
+          "blackberry",
+          "ios",
+          "other",
+          "windowsphone"
+        ]
+      },
+      "brands": {
+        "brand": [
+          "nokia"
+        ]
+      },
+      "models": {
+        "model": [
+          "lumia",
+          "samsung"
+        ]
+      }
+    },
+    "sub_pre_month": {
+      "paid_primary": null,
+      "paid_bonus": null
+    },
+    "categories": {
+      "category": [
+        "travel",
+        "entertainment",
+        "women_beauty",
+        "sport",
+        "news"
+      ]
+    },
+    "list_subscriber_available": "data_files\/campaign_script\/ftp\/259_360\/target_filter\/259_360.txt"
+  },
+  "from_hour": "09:00:00",
+  "to_hour": "23:59:00",
+  "subscription_play_times": 1,
+  "subscription_award_times": 1,
+  "total_award": 5,
+  "script_play_times": 20,
+  "keyword": "MBA",
+  "description": "description script"
+}
